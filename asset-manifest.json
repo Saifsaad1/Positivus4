@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Positivus4/static/css/main.42663851.css",
-    "main.js": "/Positivus4/static/js/main.db3f6fd0.js",
+    "main.js": "/Positivus4/static/js/main.ec0ce620.js",
     "static/js/453.1ab81935.chunk.js": "/Positivus4/static/js/453.1ab81935.chunk.js",
     "static/media/journey-background-768.png": "/Positivus4/static/media/journey-background-768.c3d690b76373a1a9556d.png",
     "static/media/proven-success.png": "/Positivus4/static/media/proven-success.f02875f75a978ce89c8e.png",
@@ -42,11 +42,11 @@
     "static/media/brian-williams.png": "/Positivus4/static/media/brian-williams.a42e030a68858b503d1d.png",
     "index.html": "/Positivus4/index.html",
     "main.42663851.css.map": "/Positivus4/static/css/main.42663851.css.map",
-    "main.db3f6fd0.js.map": "/Positivus4/static/js/main.db3f6fd0.js.map",
+    "main.ec0ce620.js.map": "/Positivus4/static/js/main.ec0ce620.js.map",
     "453.1ab81935.chunk.js.map": "/Positivus4/static/js/453.1ab81935.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42663851.css",
-    "static/js/main.db3f6fd0.js"
+    "static/js/main.ec0ce620.js"
   ]
 }
