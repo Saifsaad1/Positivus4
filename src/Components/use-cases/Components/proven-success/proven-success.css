@@ -1,0 +1,41 @@
+
+.proven-success{
+    padding: 65px 100px;
+}
+
+.proven-success .proven-success-img{
+    width: 475px;
+    height: 475px;
+}
+
+.proven-success .proven-success-title{
+    margin-left: 114px;
+}
+
+.proven-success .proven-success-title p{
+    font-size: 20px;
+}
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+.proven-success .proven-success-img{
+    width: 100%;
+    height: auto;
+}
+
+.proven-success .proven-success-title{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+

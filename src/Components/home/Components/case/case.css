@@ -1,0 +1,81 @@
+
+.case{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.case-p{
+    width: 40% !important;
+}
+
+.case .case-banner{
+    width: 100%;
+    height: 326px;
+    padding: 70px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 45px;
+    background-color: var(--pr2-color);
+}
+
+.case .case-banner .banner{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.case .case-banner .divider{
+    width: 1px;
+    height: 250px;
+    background-color: #fff;
+}
+
+.case .case-banner .banner p.info{
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+.case {
+    margin-top: 60px;
+}
+
+.case-p{
+    width: unset !important;
+}
+
+.case .case-banner{
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height: auto;
+}
+
+.case .case-banner .banner{
+    width:  100%;
+}
+
+.case .case-banner .divider{
+    width: 100%;
+    height: 1px;
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+}

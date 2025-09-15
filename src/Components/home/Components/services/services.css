@@ -1,0 +1,75 @@
+
+.home-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.home-services .proposal{
+    width: 100%;
+    height: 347px;
+    margin-top: 120px;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 45px;
+    background-color: var(--pr3-color);
+}
+
+.home-services .proposal .proposal-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.home-services .proposal .proposal-left p{
+    width: 70%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.home-services .proposal .proposal-left .proposal-btn{
+    margin-top: 15px;
+    padding: 18px 32px;
+    font-size: 20px;
+    border-radius: 14px;
+    border: 1px solid var(--pr2-color);
+    background-color: var( --pr2-color);
+    color: #fff;
+    transition: all 0.15s;
+}
+
+.home-services .proposal .proposal-left .proposal-btn:hover{
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+
+}
+
+.home-services .proposal .proposal-right img{
+    width: 494px;
+}
+
+
+
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+    .home-services .proposal{
+        margin-top: 60px;
+        padding: 50px ;
+    }
+
+    .home-services .proposal .proposal-left{
+        align-items: center;
+    }
+
+  .home-services .proposal .proposal-right img{
+    display: none;
+  }
+
+  
+}

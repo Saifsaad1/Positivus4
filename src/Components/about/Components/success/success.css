@@ -1,0 +1,40 @@
+
+.success{
+    padding: 70px 90px;
+}
+
+.success .success-img{
+    width: 474.38px;
+}
+
+.success .success-title{
+    width:  40%;
+}
+
+.success .success-title p{
+    font-size: 20px;
+}
+
+
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+.success .success-img{
+    width: 100%;
+    height: auto;
+}
+
+.success .success-title{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,87 @@
+
+.seo-process{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.seo-process .seo-process-p{
+    width: 35%;
+}
+
+.seo-process .seo-stages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.seo-process .seo-stages .seo-stage{
+    width: 100%;
+    background-color: var(--pr3-color);
+    border-radius: 45px;
+    padding: 51px 45px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.seo-process .seo-stages .seo-stage .stage-number{
+    position: relative;
+}
+
+.seo-process .seo-stages .seo-stage .stage-number .stage-star{
+    width: 138px;
+    height: 138px;
+}
+
+.seo-process .seo-stages .seo-stage .stage-number h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--pr1-color);
+}
+
+.seo-process .seo-stages .seo-stage .stage-details{
+    width: 80%;
+    margin-left: 60px;
+}
+
+.seo-process .seo-stages .seo-stage .stage-details p{
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+
+.seo-process .seo-stages .seo-stage{
+    align-items: start;
+}
+
+.seo-process .seo-process-p{
+    width: unset;
+}
+
+.seo-process .seo-stages .seo-stage .stage-number .stage-star{
+    width: 46px;
+    height: 46px;
+}
+
+.seo-process .seo-stages .seo-stage .stage-number h1{
+    font-size: 18px;
+}
+
+.seo-process .seo-stages .seo-stage .stage-details h3{
+    font-size: 50px;
+}
+
+
+
+
+
+
+}

@@ -1,0 +1,11 @@
+
+.other-services{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.other-services .services-cards .service-card-w .card-left .h3s h3 {
+    background-color: #fff !important;
+    color: #000 !important;
+}

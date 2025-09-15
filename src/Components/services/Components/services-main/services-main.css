@@ -1,0 +1,46 @@
+
+.services-main{
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 110px;
+    padding-bottom: 80px;
+    padding-right: 124px;
+    gap: 132px;
+}
+
+.services-main .services-main-img{
+    width: 445px;
+    height: 447px;
+    
+}
+
+.services-main .services-main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.services-main .services-main-title p{
+    font-size: 20px ;
+}
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+
+.services-main h1{
+    font-size: 90px;
+}
+
+.services-main .services-main-title p{
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+}

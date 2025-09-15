@@ -1,0 +1,167 @@
+
+.pricing-main{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.pricing-main > .pricing-title{
+    font-size: 89px;
+    font-weight: 600;
+}
+
+.pricing-main > .pricing-info{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 37%;
+}
+
+.pricing-main .pricing-list {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.pricing-main .pricing-list .pricing-box{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border-radius: 30px;
+}
+
+.pricing-main .pricing-list .pricing-box-dark{
+    background-color: var(--pr2-color);
+}
+
+
+.pricing-main .pricing-list .pricing-box .plan-type-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.pricing-main .pricing-list .pricing-box .plan-type{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pricing-main .pricing-list .pricing-box-dark .plan-tag{
+    background-color: var(--pr1-color);
+    border-radius: 33px;
+    color: #000;
+    padding: 8px 14px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pricing-main .pricing-list .pricing-box .price-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pricing-main .pricing-list .pricing-box .price-box .pricing{
+    font-size: 51px;
+    font-weight: 600;
+    height: max-content;
+}
+
+.pricing-main .pricing-list .pricing-box .price-box .per{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pricing-main .pricing-list .pricing-box .price-btn{
+    border-radius: 14px;
+    height: 68px;
+    width: 326px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.25s;
+}
+
+.pricing-main .pricing-list .pricing-box .price-btn:hover{
+    transform: scale(1.01);
+}
+
+.pricing-main .pricing-list .pricing-box-dark .price-started-btn{
+    background-color: var(--pr1-color) !important;
+    border: 2px solid var(--pr1-color);
+    color: #000 !important;
+}
+
+.pricing-main .pricing-list .pricing-box .price-started-btn{
+    background-color: var(--pr2-color);
+    border: 2px solid var(--pr2-color);
+    color: #fff;
+    margin-top: 50px;
+}
+
+.pricing-main .pricing-list .pricing-box .price-quote-btn{
+    background-color: transparent;
+    border: 2px solid var(--pr2-color);
+    color: #000;
+    margin-top: 20px;
+}
+
+.pricing-main .pricing-list .pricing-box-dark .price-quote-btn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.pricing-main .pricing-list .pricing-box .divider{
+    width: 100%;
+    height: 2.5px;
+    background-color: var(--pr2-color);
+    margin: 45px 0;
+    border-radius: 2px;
+}
+
+.pricing-main .pricing-list .pricing-box-dark .divider{
+    width: 100%;
+    height: 2.5px;
+    background-color: #fff;
+    margin: 45px 0;
+    border-radius: 2px;
+}
+
+.pricing-main .pricing-list .pricing-box .price-features{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+    gap: 23px !important;
+    list-style: none;
+    text-align: left;
+    padding: 0 !important;
+    width: 305px;
+}
+
+.pricing-main .pricing-list .pricing-box .price-features .price-feature{
+    display: flex;
+    align-items: center;
+}
+
+.pricing-main .pricing-list .pricing-box .price-features .price-feature .green-check{
+    width: 24px;
+    height: 24px;
+}
+
+.pricing-main .pricing-list .pricing-box .price-features .price-feature .feature-text{
+    font-size: 18px;
+    margin-left: 15px;
+}

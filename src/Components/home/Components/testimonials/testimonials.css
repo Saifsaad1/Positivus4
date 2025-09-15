@@ -1,0 +1,110 @@
+.testimonials {
+    position: relative;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.testimonials .testimonials-p {
+    width: 37%;
+}
+
+.testimonials .testimonials-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--pr1-color);
+    border-radius: 45px;
+    background-color: var(--pr2-color);
+}
+
+.testimonials .testimonials-swap-container {
+    width: 606px;
+    padding: 160px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    background-color: var(--pr2-color);
+
+}
+
+
+
+.testimonials .testimonials-swap-container .bubble-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    color: #fff;
+    transform: translate(-50%, -57%);
+
+}
+
+.testimonials .testimonials-swap-container .bubble-text span {
+    color: var(--pr1-color);
+}
+
+.testimonials .testimonials-swap-container .carousel-indicators {
+    bottom: -6rem;
+}
+
+.testimonials .testimonials-swap-container .carousel-control-prev,
+.testimonials .testimonials-swap-container .carousel-control-next {
+    color: #fff;
+}
+
+.testimonials .big-green-star {
+    position: absolute;
+    bottom: -35px;
+    left: 35px;
+    width: 260px;
+    height: 260px;
+    -webkit-user-drag: none;
+    /* For WebKit browsers like Chrome, Safari */
+    -moz-user-drag: none;
+    /* For Firefox */
+    -ms-user-drag: none;
+    /* For Internet Explorer/Edge */
+}
+
+.testimonials .big-green-star-2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    width: 178px;
+    height: 178px;
+    -webkit-user-drag: none;
+    /* For WebKit browsers like Chrome, Safari */
+    -moz-user-drag: none;
+    /* For Firefox */
+    -ms-user-drag: none;
+    /* For Internet Explorer/Edge */
+}
+
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+.testimonials .testimonials-p{
+    width: unset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

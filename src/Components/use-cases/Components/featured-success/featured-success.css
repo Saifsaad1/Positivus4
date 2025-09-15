@@ -1,0 +1,112 @@
+.featured-success {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--pr2-color);
+    border-radius: 45px;
+    padding: 70px;
+    gap: 150px;
+    color: #fff;
+}
+
+.featured-success .success-story {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.featured-success .success-story h2 {
+    background-color: var(--pr1-color);
+    color: #000;
+    padding: 2px 7px;
+    border-radius: 7px;
+}
+
+.featured-success .success-story h3 {
+    margin-top: 50px;
+}
+
+.featured-success .success-story .success-story-p {
+    margin-top: 50px;
+}
+
+.featured-success .success-story .learn-more {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.featured-success .success-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+}
+
+.featured-success .success-numbers .success-number-box {
+    width: 197px;
+    height: 197px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    gap: 10px;
+}
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+
+    .featured-success {
+        flex-direction: column;
+        padding: 40px;
+        gap: 25px;
+    }
+
+    .featured-success .success-story{
+        gap: 25px;
+    }
+
+    .featured-success .success-story h2 {
+        background-color: unset;
+        color: #fff;
+    }
+
+    .featured-success .success-story h3{
+        margin-top: 0;
+    }
+
+    .featured-success .success-story .success-story-p{
+        margin-top: 0;
+    }
+
+    .featured-success .success-story .learn-more{
+        margin-top: 0;
+    }
+
+    .featured-success .success-numbers{
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .featured-success .success-numbers .success-number-box{
+        width: 100%;
+    }
+
+    .featured-success .success-numbers .success-number-box h2{
+        font-size: 60px;
+    }
+
+        .featured-success .success-numbers .success-number-box p{
+            font-size: 26px;
+        }
+
+
+
+
+}

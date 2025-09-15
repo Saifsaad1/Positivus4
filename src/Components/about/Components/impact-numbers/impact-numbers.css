@@ -1,0 +1,77 @@
+
+.impact-numbers{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.impact-numbers .impact-p{
+    width: 34%;
+
+}
+
+.impact-numbers .impact-boxes-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.impact-numbers .impact-boxes-container .impact-box{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.impact-numbers .impact-boxes-container .box-1,
+.impact-numbers .impact-boxes-container .box-2,
+.impact-numbers .impact-boxes-container .box-3,
+.impact-numbers .impact-boxes-container .box-4
+{
+    border-top: 1px solid #000;
+    border-right: 2px solid #000;
+}
+
+.impact-numbers .impact-boxes-container .box-5{
+    border-top: 1px solid #000;
+}
+
+.impact-numbers .impact-boxes-container .impact-box h2,
+.impact-numbers .impact-boxes-container .impact-box p
+{
+    z-index: 1;
+    position: absolute;
+    left: 20%;
+    text-wrap: wrap;
+}
+
+.impact-numbers .impact-boxes-container .impact-box h2{
+    top: 30px;
+}
+
+.impact-numbers .impact-boxes-container .impact-box p{
+    top: 78px;
+    font-size: 16px;
+}
+
+.impact-numbers .impact-boxes-container .hider{
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    background-color: #fff;
+    left: -10px;
+    bottom: 0px;
+}
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+.impact-numbers .impact-p{
+    width: unset;
+}
+}

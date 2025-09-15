@@ -1,0 +1,113 @@
+.engine-opt {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: var(--pr2-color);
+    border-radius: 45px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 40px;
+    padding-right: 124px;
+}
+
+.engine-opt .eng-opt-title {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+
+.engine-opt .eng-opt-title .green-star {
+    width: 35.25px;
+    height: 35.25px;
+}
+
+.engine-opt .eng-opt-title .h3-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.engine-opt .eng-opt-title .h3-s .h3-f {
+    display: none;
+}
+
+.engine-opt .eng-opt-title h3 {
+    margin-left: 40px;
+    color: #000;
+    background-color: var(--pr1-color);
+    padding: 4px 10px;
+    border-radius: 7px;
+}
+
+.engine-opt .eng-ops-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+
+.engine-opt .eng-ops-details p {
+    color: #fff;
+}
+
+.engine-opt .eng-ops-details .eng-ops-btn {
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    padding: 20px 35px;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    font-size: 20px;
+    transition: all 0.25s;
+}
+
+.engine-opt .eng-ops-details .eng-ops-btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+    .engine-opt {
+        margin-top: 60px;
+        padding: 40px;
+        flex-direction: column;
+    }
+
+    .engine-opt .eng-opt-title .h3-s .h3-f {
+        display: block;
+        background-color: unset;
+        color: var(--pr1-color);
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .engine-opt .eng-opt-title h3 {
+        background-color: unset;
+        color: #fff;
+        margin-left: 0;
+
+    }
+
+    .engine-opt .eng-opt-title .h3-2 {
+        margin-bottom: 20px;
+        margin-left: 0;
+
+    }
+
+    .engine-opt .eng-ops-details {
+        margin-left: 35.25px;
+    }
+
+
+
+
+
+
+
+}

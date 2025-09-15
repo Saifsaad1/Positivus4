@@ -1,0 +1,118 @@
+
+.elevate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    border-radius: 45px;
+}
+
+.elevate .elevate-details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+}
+
+.elevate .elevate-details .divider{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin: 40px 0;
+}
+
+.elevate .elevate-details .p-b{
+    margin-top: 40px;
+}
+
+.elevate .elevate-details p b{
+    font-size: 18px;
+}
+
+.elevate .elevate-details .elevate-btn-a{
+    width: 100%;
+}
+
+.elevate .elevate-details .elevate-btn{
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px 35px;
+    background-color: var(--pr1-color);
+    border: 1px solid var(--pr1-color);
+    border-radius: 14px;
+    transition: all 0.25s;
+}
+
+.elevate .elevate-details .elevate-btn:hover{
+    background-color: var(--pr2-color);
+    border: 1px solid var(--pr2-color);
+    color: #fff;
+}
+
+.elevate .elevate-img{
+    width: 455px;
+    height: 354px;
+}
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+    .elevate{
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .elevate h3{
+        font-size: 50px;
+    }
+
+    .elevate .elevate-details .divider{
+        margin: 25px ;
+    }
+
+    .elevate .elevate-details .elevate-text{
+        font-size: 26px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+
+.elevate .elevate-details .p-b{
+    margin-top: 25px;
+}
+
+.elevate .elevate-details p b{
+        font-size: 35px;
+
+}
+
+.elevate .elevate-details .elevate-btn-a{
+    margin-top: 25px;
+    font-size: 26px;
+}
+
+.elevate .elevate-img{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
