@@ -1,0 +1,6 @@
+/* for screen size 768 */
+@media (max-width: 768px) {
+    .blog{
+        padding: 0 100px !important;
+    }
+}

@@ -56,6 +56,52 @@
 
 
 
+
+
+/* media for size 576px */
+@media (max-width: 576px) {
+
+    
+
+    .services-cards .service-card{
+        position: relative;
+    }
+    
+ .services-cards .service-card .card-right img{
+    width: 150px !important;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.services-cards .service-card-w .card-left .learn-more p{
+    display: none;
+}
+
+.services-cards .card-left .learn-more p{
+    display: none;
+}
+
+ .home-services .proposal .proposal-left p{
+    width: 100%;
+    font-size: 16px !important;
+ }
+
+.home-services .proposal .proposal-left .proposal-btn{
+    font-size: 16px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
 /* for screen size 768 */
 @media (max-width: 768px) {
     .home-services .proposal{

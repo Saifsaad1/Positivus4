@@ -156,18 +156,19 @@ const NavbarContent = () => {
                 <Route path="/UseCases" element={<UseCases />}></Route>
                 <Route path="/Pricing" element={<Pricing />}></Route>
                 <Route path="/Blog" element={<Blog />}></Route>
-
-                Blog
             </Routes>
         </>
     )
 }
 
 const Navbar = () => (
-    <BrowserRouter basename="/Positivus2">
+    <BrowserRouter>
 
         <NavbarContent />
     </BrowserRouter>
 );
+console.log("Navbar loaded");
 
 export default Navbar;
+
+/*  basename="/Positivus4" */

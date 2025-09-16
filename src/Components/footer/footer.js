@@ -45,8 +45,8 @@ const Footer = () => {
                     </div>
 
                     <div className="footer-subscribe">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
-                        <button type="button" class="subscribe-btn">Subscribe to news</button>
+                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
+                        <button type="button" className="subscribe-btn">Subscribe to news</button>
                     </div>
                 </div>
 

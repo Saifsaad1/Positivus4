@@ -6,6 +6,31 @@
     justify-content: start;
 }
 
+
+
+
+/* media for size 576px */
+@media (max-width: 576px) {
+    
+ .work-proceess-cards-container{
+    width: 100%;
+ }
+
+.work-process-card-title-container .work-process-card-title .work-process-card-title-number{
+    font-size: 30px !important;
+}
+
+.work-process-card-title-container .work-process-card-title .work-proceess-card-title-info{
+    font-size: 18px !important;
+}
+
+ 
+
+}
+
+
+
+
 /* for screen size 768 */
 @media (max-width: 768px) {
 .work-process-card{

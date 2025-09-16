@@ -34,3 +34,25 @@
     color: #000;
     margin-top: 30px;
 }
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+
+.creator-message{
+    width: 100% !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

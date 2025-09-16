@@ -165,3 +165,26 @@
     font-size: 18px;
     margin-left: 15px;
 }
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+
+.pricing-main{
+    align-items: c;
+}
+
+
+.pricing-main > .pricing-title{
+    font-size: 60px;
+}
+
+.pricing-main > .pricing-info{
+    width: 100%;
+    font-size: 26px;
+}
+
+
+
+
+    
+}

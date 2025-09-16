@@ -87,12 +87,40 @@
 }
 
 
-/* for screen size 768 */
-@media (max-width: 768px) {
-.testimonials .testimonials-p{
-    width: unset;
+
+
+/* media for size 576px */
+@media (max-width: 576px) {
+    .testimonials .testimonials-swap-container {
+        width: 450px
+    }
+
+    .testimonials .testimonials-swap-container .bubble-text {
+        font-size: 14px;
+        width: 75%;
+    }
+
+    .w-100 {
+        height: 350px;
+    }
+
+    .footer .mini-nav .social-media {
+        gap: 12px;
+    }
+
+    .footer .mini-nav .social-media img {
+        width: 20px;
+    }
+
 }
 
+
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+    .testimonials .testimonials-p {
+        width: unset;
+    }
 
 
 

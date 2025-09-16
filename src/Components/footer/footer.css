@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    
+
 }
 
 .footer .footer-container {
@@ -143,58 +143,66 @@
 /* for screen size 768 */
 @media (max-width: 768px) {
 
-.footer{
-    padding: 50ps 20px;
-}
 
-.footer .mini-nav{
-    justify-content: center;
-    position: relative;
-}
+    .footer .footer-container {
+        padding: 50px 20px;
 
-.footer .mini-nav .social-media{
-    position: absolute;
-    right: 0;
-    top: 0;
-}
+    }
 
-.footer .contact-subscribe{
-    margin-top: 37px;
-    flex-direction: column;
-}
+    .footer .mini-nav {
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        gap: 20px;
 
-.footer .contact-subscribe .footer-contact{
-    width: 100%;
-    align-items: center;
-    text-align: center;
-}
+    }
 
-.footer .contact-subscribe .footer-subscribe{
-    width: 100%;
-    margin-top: 37px;
-    flex-direction: column;
-    padding: 30px;
-    gap: 22px;
-}
+    .footer .mini-nav .social-media {
+        right: 0;
+        top: 0;
+    }
 
-.footer .contact-subscribe .footer-subscribe input{
-    width: 100%;
-    padding: 21px 25px;
-}
+    .footer .mini-nav .social-media img {
+        width: 35px;
+    }
 
-.footer .contact-subscribe .subscribe-btn{
-    width: 100%;
-}
+    .footer .contact-subscribe {
+        margin-top: 37px;
+        flex-direction: column;
+    }
 
-.footer .divider{
-    margin: 37px 0;
-}
+    .footer .contact-subscribe .footer-contact {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
 
-.footer .rights-policy{
-    flex-direction: column !important;
-    align-items: center;
-    gap: 15px
-}
+    .footer .contact-subscribe .footer-subscribe {
+        width: 100%;
+        margin-top: 37px;
+        flex-direction: column;
+        padding: 30px;
+        gap: 22px;
+    }
+
+    .footer .contact-subscribe .footer-subscribe input {
+        width: 100%;
+        padding: 21px 25px;
+    }
+
+    .footer .contact-subscribe .subscribe-btn {
+        width: 100%;
+    }
+
+    .footer .divider {
+        margin: 37px 0;
+    }
+
+    .footer .rights-policy {
+        flex-direction: column !important;
+        align-items: center;
+        gap: 15px
+    }
 
 
 

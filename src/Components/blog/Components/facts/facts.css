@@ -61,3 +61,54 @@
     background-color: var(--pr2-color);
     color: #fff;
 }
+
+/* for screen size 768 */
+@media (max-width: 768px) {
+.facts .facts-row{
+    flex-direction: column !important;
+    gap: 20px;
+}
+
+.facts .facts-row .facts-box-1{
+    width: 100%;
+    height: auto;
+}
+
+.facts .facts-row .facts-box-1{
+    font-size: 26px !important; 
+}
+
+.facts .facts-row .facts-box-2{
+    width: 100%;
+    height: auto;
+}
+
+.facts .facts-row .facts-box-3{
+    width: 100%;
+    height: auto;
+}
+
+.facts .facts-row .facts-box-3 .facts-box-row{
+    gap: 15px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.facts .facts-row .facts-box-3 .facts-box-row p{
+    font-size: 26px;
+}
+
+.facts .facts-row .facts-box h3{
+    margin-top: unset;
+}
+
+.facts .facts-row .facts-box-4{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+}
+

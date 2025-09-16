@@ -1,5 +1,5 @@
 //import useState
-import { useState } from "react";
+import { useState , useEffect } from "react";
 
 //import css
 import "./questions.css"
@@ -9,10 +9,27 @@ import dropDown from "./images/drop-down.png";
 
 const Questions = () => {
     const [openCards, setOpenCards] = useState({
-        1: true,  // Consultation مفتوح افتراضي
-        2: false, // Research
-        3: false, // Implementation
+        1: true, // افتراضي كبير
+        2: false,
+        3: false,
+        4: false,
+        5: false,
+        6: false,
     });
+
+useEffect(() => {
+        if (window.innerWidth <= 768) {
+            setOpenCards({
+                1: false,
+                2: false,
+                3: false,
+                4: false,
+                5: false,
+                6: false,
+            });
+        }
+    }, []); // تشغل مرة وحدة عند التحميل
+    
 
     const toggleCard = (cardNumber) => {
         setOpenCards((prev) => ({

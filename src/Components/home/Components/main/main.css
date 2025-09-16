@@ -80,6 +80,36 @@
 }
 
 
+
+
+
+
+
+/* media for size 576px */
+@media (max-width: 576px) {
+    
+ .main{
+        margin-top: 40px;
+    }
+
+    .main-label img{
+        transform: scale(0.7);
+        width: max-content;
+    }
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
 /* for screen size 768 */
 @media (max-width: 768px) {
     .main{
@@ -109,4 +139,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+
+
 }
