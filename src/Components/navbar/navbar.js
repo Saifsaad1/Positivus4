@@ -162,7 +162,11 @@ const NavbarContent = () => {
 }
 
 const Navbar = () => (
+<<<<<<< HEAD
     <BrowserRouter>
+=======
+    <BrowserRouter basename="/Positivus4">
+>>>>>>> 1787c116c005c9b1a62051a7bdf19e8e76831beb
 
         <NavbarContent />
     </BrowserRouter>
