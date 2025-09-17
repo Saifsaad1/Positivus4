@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Positivus4/static/css/main.5be6e26b.css",
-    "main.js": "/Positivus4/static/js/main.8c39fb8b.js",
+    "main.css": "/Positivus4/static/css/main.278e2c20.css",
+    "main.js": "/Positivus4/static/js/main.d92c2fc3.js",
     "static/js/453.1ab81935.chunk.js": "/Positivus4/static/js/453.1ab81935.chunk.js",
     "static/media/journey-background-768.png": "/Positivus4/static/media/journey-background-768.c3d690b76373a1a9556d.png",
     "static/media/proven-success.png": "/Positivus4/static/media/proven-success.f02875f75a978ce89c8e.png",
@@ -17,9 +17,9 @@
     "static/media/create-proposal.png": "/Positivus4/static/media/create-proposal.b2b61703550bf0b44f92.png",
     "static/media/journey-background-texted.png": "/Positivus4/static/media/journey-background-texted.59dea1f4c9858e256f6f.png",
     "static/media/innovative.png": "/Positivus4/static/media/innovative.236472c9ca5c8fc6332e.png",
-    "static/media/creator.png": "/Positivus4/static/media/creator.ce4dce7acf2036f01f50.png",
     "static/media/blog.png": "/Positivus4/static/media/blog.76ef91f371857b2eb485.png",
     "static/media/main-right.png": "/Positivus4/static/media/main-right.76ef91f371857b2eb485.png",
+    "static/media/creator.png": "/Positivus4/static/media/creator.3cc713bc48c640dd1cc1.png",
     "static/media/statement-img.png": "/Positivus4/static/media/statement-img.22df6abc3ee8656c40ca.png",
     "static/media/analytic-and-tracking.png": "/Positivus4/static/media/analytic-and-tracking.9d45254c17cc44465d09.png",
     "static/media/social-media.png": "/Positivus4/static/media/social-media.512befaf45430009be34.png",
@@ -41,12 +41,12 @@
     "static/media/big-green-star.png": "/Positivus4/static/media/big-green-star.acdb34e80f6a7a2c7923.png",
     "static/media/brian-williams.png": "/Positivus4/static/media/brian-williams.a42e030a68858b503d1d.png",
     "index.html": "/Positivus4/index.html",
-    "main.5be6e26b.css.map": "/Positivus4/static/css/main.5be6e26b.css.map",
-    "main.8c39fb8b.js.map": "/Positivus4/static/js/main.8c39fb8b.js.map",
+    "main.278e2c20.css.map": "/Positivus4/static/css/main.278e2c20.css.map",
+    "main.d92c2fc3.js.map": "/Positivus4/static/js/main.d92c2fc3.js.map",
     "453.1ab81935.chunk.js.map": "/Positivus4/static/js/453.1ab81935.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5be6e26b.css",
-    "static/js/main.8c39fb8b.js"
+    "static/css/main.278e2c20.css",
+    "static/js/main.d92c2fc3.js"
   ]
 }
