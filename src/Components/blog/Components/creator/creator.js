@@ -13,7 +13,7 @@ const Creator = () => {
             <div className="creator-box">
                 <img className="creator-img" src={creatorImg}/>
                 <div className="creator-info">
-                    <h4>Sri Wulandari</h4>
+                    <h4>Sara Kim</h4>
                     <p>Content Creator</p>
                 </div>
             </div>
