@@ -1,58 +1,103 @@
-
-.blog-main{
+.blog-main {
     padding-left: 80px;
     padding-right: 90px;
     padding-top: 100px;
     padding-bottom: 100px;
     gap: 105px;
+    background-color: var(--pr3-color) !important;
 }
 
-.blog-main .blog-img{
+.blog-main .blog-img {
     width: 486.87px;
     height: 415px;
 }
 
-.blog-main .blog-main-title{
+.blog-main .blog-main-title {
     gap: unset !important;
 }
 
-.blog-main .blog-main-title .blog-label{
+.blog-main .blog-main-title .blog-label {
     background-color: #E8E8E8;
     padding: 5px 16px;
     border-radius: 9px;
     color: #696969;
 }
 
-.blog-main .blog-main-title h2{
+.blog-main .blog-main-title h2 {
     font-weight: 600;
     width: 74%;
     line-height: 50px;
     margin-top: 50px;
 }
 
-.blog-main .blog-main-title .blog-info{
+.blog-main .blog-main-title .blog-info {
     color: #000;
     margin-top: 30px;
 }
 
+
+
+/* media for size 576px */
+@media (max-width: 576px) {
+    .blog-main {
+        padding: 40px 20px !important;
+    }
+
+    .blog-main .blog-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-main .blog-main-title h2 {
+        margin-top: unset;
+    }
+
+    .blog-main .blog-main-title .blog-info {
+        margin-top: unset;
+    }
+
+    .blog-main .blog-main-title{
+        gap: 35px !important;
+    }
+
+    .creator .sec-title-info-box .sec-title-info-box-info{
+        font-size: 24px !important;
+        margin-left: 25px !important;
+    }
+
+    .facts .facts-row .facts-box-2 .facts-box-title{
+        font-size: 30px !important;
+    }
+
+        .facts .facts-row .facts-box-4 {
+            padding: 40px 30px !important;
+            gap: 15px;
+        }
+
+
+}
+
+
+
 /* for screen size 768 */
 @media (max-width: 768px) {
 
-.creator-message{
-    width: 100% !important; 
+    .creator-message {
+        width: 100% !important;
+    }
+
+    .blog-main .blog-main-title h2 {
+        width: 100% !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-

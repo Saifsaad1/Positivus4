@@ -64,6 +64,37 @@
 }
 
 
+
+/* media for size 576px */
+@media (max-width: 576px) {
+    .core .core-cards .core-card-media{
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .core .core-cards .core-card{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+ 
+
+}
+
+
+
+
+
+
+
+
 /* for screen size 768 */
 @media (max-width: 768px) {
 

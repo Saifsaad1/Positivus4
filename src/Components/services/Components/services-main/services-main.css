@@ -25,6 +25,18 @@
     font-size: 20px ;
 }
 
+
+
+/* media for size 576px */
+@media (max-width: 576px) {
+    
+ 
+
+ 
+
+}
+
+
 /* for screen size 768 */
 @media (max-width: 768px) {
 

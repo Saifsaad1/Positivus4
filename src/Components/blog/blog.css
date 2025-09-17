@@ -1,6 +1,19 @@
+/* media for size 576px */
+@media (max-width: 576px) {
+
+    .blog {
+        padding: 0 20px !important;
+    }
+
+
+
+}
+
+
+
 /* for screen size 768 */
 @media (max-width: 768px) {
-    .blog{
-        padding: 0 100px !important;
+    .blog {
+        padding: 0 100px ;
     }
 }

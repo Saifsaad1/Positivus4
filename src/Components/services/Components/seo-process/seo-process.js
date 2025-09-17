@@ -22,7 +22,7 @@ const SeoProcess = () => {
                 <div className="seo-stage seo-stage-1">
                     <div className="stage-number">
                         <img className="stage-star" src={stageStar}/>
-                        <h1>01</h1>
+                        <h4>01</h4>
                     </div>
 
                     <div className="stage-details">
@@ -37,7 +37,7 @@ const SeoProcess = () => {
                 <div className="seo-stage seo-stage-2">
                     <div className="stage-number">
                         <img className="stage-star" src={stageStar}/>
-                        <h1>02</h1>
+                        <h4>02</h4>
                     </div>
 
                     <div className="stage-details">
@@ -52,7 +52,7 @@ const SeoProcess = () => {
                 <div className="seo-stage seo-stage-3">
                     <div className="stage-number">
                         <img className="stage-star" src={stageStar}/>
-                        <h1>03</h1>
+                        <h4>03</h4>
                     </div>
 
                     <div className="stage-details">
@@ -67,7 +67,7 @@ const SeoProcess = () => {
                 <div className="seo-stage seo-stage-4">
                     <div className="stage-number">
                         <img className="stage-star" src={stageStar}/>
-                        <h1>04</h1>
+                        <h4>04</h4>
                     </div>
 
                     <div className="stage-details">
@@ -82,7 +82,7 @@ const SeoProcess = () => {
                 <div className="seo-stage seo-stage-5">
                     <div className="stage-number">
                         <img className="stage-star" src={stageStar}/>
-                        <h1>05</h1>
+                        <h4>05</h4>
                     </div>
 
                     <div className="stage-details">
@@ -97,7 +97,7 @@ const SeoProcess = () => {
                 <div className="seo-stage seo-stage-6">
                     <div className="stage-number">
                         <img className="stage-star" src={stageStar}/>
-                        <h1>06</h1>
+                        <h4>06</h4>
                     </div>
 
                     <div className="stage-details">

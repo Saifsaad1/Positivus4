@@ -17,6 +17,48 @@
 
 
 
+/* media for size 576px */
+@media (max-width: 576px) {
+    
+ 
+.section-info{
+    gap: 35px;
+}
+ 
+.impact-numbers .impact-boxes-container{
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.impact-numbers .impact-boxes-container .impact-box{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    width: 75% !important;
+
+}
+
+.impact-numbers .impact-boxes-container .hider{
+    left: 0;
+    position: absolute;
+    display: none;
+    
+    
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
 /* for screen size 768 */
 @media (max-width: 768px) {
 .success .success-img{
