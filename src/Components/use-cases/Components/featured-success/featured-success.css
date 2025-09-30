@@ -95,7 +95,7 @@
     }
 
     .featured-success .success-numbers .success-number-box{
-        width: 100%;
+        width: 100% !important;
     }
 
     .featured-success .success-numbers .success-number-box h2{

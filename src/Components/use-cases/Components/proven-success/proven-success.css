@@ -1,6 +1,7 @@
 
 .proven-success{
     padding: 65px 100px;
+    align-items: center !important;
 }
 
 .proven-success .proven-success-img{
@@ -19,12 +20,13 @@
 /* for screen size 768 */
 @media (max-width: 768px) {
 .proven-success .proven-success-img{
-    width: 100%;
+    width: 90% !important;
     height: auto;
 }
 
 .proven-success .proven-success-title{
-    margin-left: 0;
+    margin-left: 0 !important;
+    width: 100% !important;
 }
 
 
@@ -61,12 +63,20 @@
 
 /* media for size 1200px */
 @media (max-width: 1200px) {
+    .proven-success{
+         padding: 45px 80px;
+
+    }
     
   .proven-success .proven-success-img{
-   width: 50% !important;
-    height: auto !important;
+   width: 50% ;
+    height: auto ;
 
 
+  }
+
+  .proven-success .proven-success-title{
+    margin-left: 70px;
   }
 
  

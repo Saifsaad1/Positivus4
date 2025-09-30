@@ -48,7 +48,10 @@
     font-size: 28px;
 }
 
-
+.services-main .services-main-img{
+    width: 90% !important ;
+    height: auto;
+ }
 
 
 
@@ -69,13 +72,14 @@
  }
 
  .services-main .services-main-img{
-    width: 50%;
+    width: 50% ;
     height: auto;
  }
 
  .services-main .services-main-title{
-    width: 50%;
+    width: 100% !important;
  }
+ 
 
  
 

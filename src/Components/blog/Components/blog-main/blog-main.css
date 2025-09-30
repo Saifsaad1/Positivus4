@@ -90,6 +90,9 @@
         width: 100% !important;
     }
 
+    .blog-main .blog-img{
+        width: 90% !important;
+    }
 }
 
 
@@ -98,7 +101,7 @@
 @media (max-width: 992px) {
     
  .blog-main{
-    padding: 60px 40px;
+    padding: 70px 50px !important;
     gap: 60px;
  }
 
@@ -108,7 +111,7 @@
  }
 
  .blog-main .blog-main-title{
-    width: 100%;
+    width: 100% !important;
  }
 
  .blog-main .blog-main-title h2{

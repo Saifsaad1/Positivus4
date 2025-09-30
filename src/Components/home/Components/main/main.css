@@ -128,8 +128,12 @@
         width: 100%;
     }
 
+    .main-right{
+        width: 90% !important;
+    }
+
     .main .main-right-img {
-        width: 100%;
+        width: 100% !important;
         height: auto;
         margin-top: 60px;
     }
@@ -151,8 +155,9 @@
 @media (max-width: 992px) {
 
 
+
     .main .main-right-img  {
-        width: 100% !important;
+        width: 100% ;
         height: auto !important;
     }
 
@@ -194,7 +199,7 @@
     }
 
     .main .main-right-img{
-        width: 100% !important;
+        width: 100% ;
         height: auto !important;
     }
 

@@ -533,7 +533,7 @@ button {
   }
 
   .section-padding {
-    padding: 0 20px;
+    padding: 0 20px !important;
   }
 
   .section-main {

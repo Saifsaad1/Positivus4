@@ -62,12 +62,12 @@
 /* for screen size 768 */
 @media (max-width: 768px) {
 .success .success-img{
-    width: 100%;
+    width: 90% !important;
     height: auto;
 }
 
 .success .success-title{
-    width: 100%;
+    width: 100% !important;
 }
 
 
@@ -96,11 +96,11 @@
     }
 
    .success .success-img{
-        width: 50% !important;
+        width: 50% ;
     }
 
     .success .success-title{
-        width: 50% !important;
+        width: 50% ;
     }
  
 

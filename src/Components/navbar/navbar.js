@@ -1,5 +1,5 @@
 //import browserRouter, Link, Routes, Route, useLocation
-import { BrowserRouter, Link, Routes, Route, useLocation } from "react-router-dom"
+import { BrowserRouter, Link, Routes, Route, useLocation, useNavigate } from "react-router-dom"
 
 //import useState
 import { useState, useEffect } from 'react';
@@ -10,10 +10,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 //import css
 import "./navbar.css"
+import "./floating-buttons.css"   // ✅ ملف الأزرار الجديدة
 
 //import logo
 import logoBlack from "./images/logo-black.png"
-
 
 //import Home
 import Home from "../home/home";
@@ -36,6 +36,8 @@ import Blog from "../blog/blog";
 const NavbarContent = () => {
     const [activeIndex, setActiveIndex] = useState(null);
     const location = useLocation();
+    const navigate = useNavigate();
+
     // detect active link from pathname
     useEffect(() => {
         switch (location.pathname) {
@@ -61,10 +63,21 @@ const NavbarContent = () => {
 
     const liEvent = (index) => {
         setActiveIndex(index);
-    }
+    };
+
+    // scroll to top
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+    // navigate to home
+    const goHome = () => {
+        navigate("/");
+    };
 
     return (
         <>
+            {/* Navbar */}
             <nav className="navbar navbar-expand-lg cs-navbar flex-between">
                 <div className="container-fluid">
                     {/* Logo */}
@@ -157,13 +170,27 @@ const NavbarContent = () => {
                 <Route path="/Pricing" element={<Pricing />}></Route>
                 <Route path="/Blog" element={<Blog />}></Route>
             </Routes>
+
+            {/* Floating Buttons */}
+            <div className="floating-buttons">
+                {/* Scroll To Top */}
+                <button className="scroll-top-btn" onClick={scrollToTop}>
+                    ↑
+                </button>
+
+                {/* Go Home (يظهر فقط إذا لم يكن في الصفحة الرئيسية) */}
+                {location.pathname !== "/" && (
+                    <button className="go-home-btn" onClick={goHome}>
+                        ⌂
+                    </button>
+                )}
+            </div>
         </>
     )
 }
 
 const Navbar = () => (
     <BrowserRouter basename="/Positivus4">
-
         <NavbarContent />
     </BrowserRouter>
 );
