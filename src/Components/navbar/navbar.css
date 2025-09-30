@@ -47,8 +47,12 @@
     border-radius: 7px;
 }
 
-
-
+/* media for size 420px */
+@media (max-width: 420px) {
+ .cs-navbar {
+    padding: 20px 10px !important;
+   }
+}
 
 
 
@@ -57,6 +61,8 @@
     
  .cs-navbar {
     padding: 40px 20px;
+   margin-bottom: 50px !important;
+
 }
 
 }
