@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Positivus4/static/css/main.278e2c20.css",
-    "main.js": "/Positivus4/static/js/main.d92c2fc3.js",
+    "main.css": "/Positivus4/static/css/main.0a22d3b4.css",
+    "main.js": "/Positivus4/static/js/main.626408d2.js",
     "static/js/453.1ab81935.chunk.js": "/Positivus4/static/js/453.1ab81935.chunk.js",
     "static/media/journey-background-768.png": "/Positivus4/static/media/journey-background-768.c3d690b76373a1a9556d.png",
     "static/media/proven-success.png": "/Positivus4/static/media/proven-success.f02875f75a978ce89c8e.png",
@@ -26,11 +26,11 @@
     "static/media/gdea.png": "/Positivus4/static/media/gdea.90466c94c32af096544c.png",
     "static/media/contact-img.png": "/Positivus4/static/media/contact-img.da4e7cd1fed0f965ded0.png",
     "static/media/collaboration.png": "/Positivus4/static/media/collaboration.291dd53eed828dbfda6b.png",
-    "static/media/proposal-img.png": "/Positivus4/static/media/proposal-img.39396509c98205db4ed3.png",
     "static/media/innovation.png": "/Positivus4/static/media/innovation.37946ee7fa16d1ca60bb.png",
     "static/media/engine-optimization.png": "/Positivus4/static/media/engine-optimization.1265d1d0673315c3b6cf.png",
     "static/media/stage-star.png": "/Positivus4/static/media/stage-star.9d593f90addbda62552d.png",
     "static/media/advertising.png": "/Positivus4/static/media/advertising.7125a9b4a653b3c3f402.png",
+    "static/media/proposal-img.png": "/Positivus4/static/media/proposal-img.8f0fab94151a55e020c6.png",
     "static/media/success-img.png": "/Positivus4/static/media/success-img.1ad1c12b691b17791b4a.png",
     "static/media/bubble.png": "/Positivus4/static/media/bubble.e45f07f372a8bb8c65a3.png",
     "static/media/michael-brown.png": "/Positivus4/static/media/michael-brown.01cd513ae89b40cda35c.png",
@@ -41,12 +41,12 @@
     "static/media/big-green-star.png": "/Positivus4/static/media/big-green-star.acdb34e80f6a7a2c7923.png",
     "static/media/brian-williams.png": "/Positivus4/static/media/brian-williams.a42e030a68858b503d1d.png",
     "index.html": "/Positivus4/index.html",
-    "main.278e2c20.css.map": "/Positivus4/static/css/main.278e2c20.css.map",
-    "main.d92c2fc3.js.map": "/Positivus4/static/js/main.d92c2fc3.js.map",
+    "main.0a22d3b4.css.map": "/Positivus4/static/css/main.0a22d3b4.css.map",
+    "main.626408d2.js.map": "/Positivus4/static/js/main.626408d2.js.map",
     "453.1ab81935.chunk.js.map": "/Positivus4/static/js/453.1ab81935.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.278e2c20.css",
-    "static/js/main.d92c2fc3.js"
+    "static/css/main.0a22d3b4.css",
+    "static/js/main.626408d2.js"
   ]
 }
