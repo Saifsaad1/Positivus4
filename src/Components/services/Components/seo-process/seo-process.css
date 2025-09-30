@@ -85,3 +85,17 @@
 
 
 }
+
+
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .seo-process .seo-process-p{
+    width: 70%;
+ }
+
+ 
+
+}

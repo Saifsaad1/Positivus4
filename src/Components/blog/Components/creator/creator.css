@@ -86,3 +86,37 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ 
+.creator-message{
+    width: 100% !important;
+}
+
+.creator .creator-message .creator-message-title{
+    font-size: 21px;
+}
+
+.creator .creator-message .sec-title{
+    font-size: 35px;
+}
+
+.creator .sec-title-info-box .sec-title-info-box-info{
+    font-size: 26px;
+}
+
+.facts .facts-row .facts-box{
+    padding: 25px 40px !important;
+}
+
+.facts .facts-row .facts-box-3 .facts-box-row{
+    gap: 20px !important;
+}
+ 
+
+}
+

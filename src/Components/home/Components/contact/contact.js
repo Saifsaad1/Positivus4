@@ -1,65 +1,45 @@
-
-// import css
-import "./contact.css"
-
-
-//import contact image
-import contactImg from "./images/contact-img.png"
+import "./contact.css";
+import contactImg from "./images/contact-img.png";
 
 const Contact = () => {
+  
 
-    return (
+  return (
+    <div className="contact mt-140">
+      <div className="section-title">
+        <h2>Contact Us</h2>
+        <p className="contact-p">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+      </div>
 
-        <div className="contact mt-140">
-            <div className="section-title">
-                <h2>Contact Us</h2>
-                <p className="contact-p">Connect with Us: Let's Discuss Your Digital Marketing Needs </p>
-            </div>
+      <div className="contact-form-container">
+        <form  action="https://formsubmit.co/saifsaad65a@gmail.com" method="post">
+          <div className="form-input">
+            <label htmlFor="name" className="form-label">Name</label>
+            <input type="text" id="name" name="name" className="form-control" placeholder="Name"/>
+          </div>
 
-            <div className="contact-form-container">
-                <div className="hi-quote">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
-                        <p>Say Hi</p>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-                        <p>Get a Quote</p>
-                    </div>
+          <div className="mt-custom">
+            <label htmlFor="email" className="form-label">Email*</label>
+            <input type="email" id="email" name="email" className="form-control" placeholder="Email"/>
+          </div>
 
-                </div>
+          <div className="mt-custom">
+            <label htmlFor="subject" className="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" className="form-control" placeholder="Subject"/>
+          </div>
 
-                <form>
-                    <div class=" form-input">
-                        <label for="exampleInputEmail1" class="form-label">Name</label>
-                        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="name" placeholder="Name" />
-                    </div>
+          <div className="mt-custom">
+            <label htmlFor="message" className="form-label">Message</label>
+            <textarea id="message" name="message" rows={6} className="form-control" placeholder="Message"/>
+          </div>
 
-                    <div className="mt-custom">
-                        <label for="exampleInputEmail1" class="form-label">Email*</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
-                    </div>
+          <button type="submit" name="submit" className="btn btn-primary submit-btn">Send Message</button>
+        </form>
 
-                    <div className="mt-custom">
-                        <label htmlFor="message" className="form-label">Message</label>
-                        <textarea
-                            className="form-control message-input"
-                            id="message"
-                            placeholder="Message"
-                            rows={6}
-                        />
-                    </div>
-
-                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
-                </form>
-
-
-                <img className="contact-img" src={contactImg}/>
-            </div>
-
-        </div>
-    )
+        <img src={contactImg} className="contact-img" alt="Contact"/>
+      </div>
+    </div>
+  )
 }
 
-
-export default Contact
+export default Contact;

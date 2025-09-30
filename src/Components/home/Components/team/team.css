@@ -126,13 +126,37 @@
 
 
 
+}
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ 
+
+
+    .team .team-p{
+        width: 70%;
+    }
+
+    .team .team-card{
+        width: 100%;
+        height: auto;
+    }
+ 
+
+}
 
 
 
+/* media for size 1200px */
+@media (max-width: 1200px) {
+    
+  .team .team-card{
+        width: 450px;
+    }
+ 
 
-
-
-
-
+ 
 
 }

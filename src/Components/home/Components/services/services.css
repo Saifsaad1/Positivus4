@@ -50,7 +50,7 @@
 }
 
 .home-services .proposal .proposal-right img{
-    width: 494px;
+    width: 400px;
 }
 
 
@@ -118,4 +118,62 @@
   }
 
   
+}
+
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .home-services .proposal {
+    height: auto;
+  }
+
+  .home-services .proposal {
+
+    padding: 40px 40px;
+  }
+
+  .home-services .proposal .proposal-right img {
+    width: 280px;
+  }
+
+
+}
+
+
+
+/* media for size 1200px */
+@media (max-width: 1200px) {
+    
+
+
+ 
+
+ .services-cards{
+    gap: 30px;
+ }
+
+ .services-cards .service-card{
+    width: 500px !important;
+    height: 270px !important;
+    padding: 40px;
+ }
+ 
+
+}
+
+
+
+/* media for size 1400px */
+@media (max-width: 1400px) {
+    
+ 
+.services-cards .service-card{
+    width: 560px !important;
+    height: 290px !important;
+    padding: 40px;
+ }
+ 
+
 }

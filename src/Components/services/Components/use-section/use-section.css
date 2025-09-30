@@ -79,14 +79,20 @@ font-size: 65px;
 
 
 
+}
 
 
 
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .use-section .use-container{
+    padding: 50px 40px;
+ }
 
-
-
-
-
-
+.use-section .use-container p{
+    font-size: 15px;
+}
+ 
 
 }

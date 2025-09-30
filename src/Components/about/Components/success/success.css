@@ -80,3 +80,30 @@
 
 
 }
+
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    .success{
+        padding: 50px 70px;
+    }
+
+
+    .section-main{
+        gap: 40px;
+        align-items: center;
+    }
+
+   .success .success-img{
+        width: 50% !important;
+    }
+
+    .success .success-title{
+        width: 50% !important;
+    }
+ 
+
+ 
+
+}

@@ -81,3 +81,23 @@
 
 
 }
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .join-team{
+    padding: 40px 60px;
+ }
+
+ .join-team .jt-info p{
+    font-size: 16px;
+ }
+ 
+ .join-team .jt-info .careers-btn{
+    font-size: 18px;
+    padding: 17px 30px;
+ }
+ 
+
+}

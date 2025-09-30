@@ -75,3 +75,17 @@
     width: unset;
 }
 }
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .impact-numbers .impact-p{
+    width: 70%;
+
+ }
+
+
+ 
+
+}

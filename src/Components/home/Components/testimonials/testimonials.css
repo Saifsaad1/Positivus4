@@ -124,15 +124,16 @@
 
 
 
+}
 
 
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .testimonials .testimonials-p{
+    width: 70%;
+ }
 
-
-
-
-
-
-
-
+ 
 
 }

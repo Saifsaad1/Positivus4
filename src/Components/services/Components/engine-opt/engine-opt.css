@@ -111,3 +111,26 @@
 
 
 }
+
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .engine-opt{
+    margin-top: 100px;
+    padding: 60px;
+ }
+
+ .engine-opt .eng-opt-title .green-star{
+    width: 30px;
+    height: 30px;
+ }
+
+ .engine-opt .eng-opt-title h3{
+    margin-left: 20px;
+ }
+
+ 
+
+}

@@ -92,3 +92,15 @@
 
 
 }
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .create-proposal{
+    padding: 40px 60px;
+ }
+
+ 
+
+}

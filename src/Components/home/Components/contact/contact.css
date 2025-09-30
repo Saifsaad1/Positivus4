@@ -177,3 +177,35 @@
 
 
 }
+
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    .contact .section-title .contact-p{
+        width: 70%;
+    }
+ 
+    .contact .contact-form-container{
+        padding: 40px 60px;
+    }
+
+    .contact .contact-form-container .contact-img{
+        height: 500px;
+    }
+ 
+
+}
+
+
+
+/* media for size 1200px */
+@media (max-width: 1200px) {
+    
+    .contact .contact-p{
+        width: 75% !important;
+    }
+
+ 
+
+}

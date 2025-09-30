@@ -30,12 +30,48 @@
 
 
 
+}
 
 
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .proven-success{
+    padding: 35px 70px;
+ }
 
+ .proven-success .proven-success-img{
+    width: 50%;
+    height: auto;
+ }
 
+ .proven-success .proven-success-title{
+    margin-left: unset;
+    width: 50%;
+ }
+
+ .proven-success .proven-success-title p{
+    font-size: 18px;
+ }
+
+ 
 
 }
 
 
+/* media for size 1200px */
+@media (max-width: 1200px) {
+    
+  .proven-success .proven-success-img{
+   width: 50% !important;
+    height: auto !important;
+
+
+  }
+
+ 
+
+}
+
+ 
 

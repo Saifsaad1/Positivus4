@@ -215,3 +215,29 @@
 
     
 }
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .pricing-main > .pricing-title{
+    font-size: 65px;
+ }
+
+ .pricing-main > .pricing-info{
+    font-size: 18px;
+    width: unset;
+ }
+
+ .pricing-main .pricing-list{
+    margin-top: 70px;
+ }
+
+ .pricing-main .pricing-list .pricing-box{
+    width: 75%;
+    
+    align-items: center;
+ }
+ 
+
+}

@@ -75,7 +75,19 @@
 
 
 
+}
 
 
+/* media for size 992px */
+@media (max-width: 992px) {
+    .case{
+        margin-top: 100px !important;
+    }
+ 
+    .case-p{
+        width: 60% !important;
+    }
+
+ 
 
 }

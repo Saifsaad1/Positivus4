@@ -56,3 +56,44 @@
 
 
 }
+
+
+
+/* media for size 992px */
+@media (max-width: 992px) {
+    
+ .section-main{
+    padding: 40px 50px;
+    gap: 70px;
+    align-items: center !important;
+ }
+
+ .services-main .services-main-img{
+    width: 50%;
+    height: auto;
+ }
+
+ .services-main .services-main-title{
+    width: 50%;
+ }
+
+ 
+
+}
+
+
+
+/* media for size 1200px */
+@media (max-width: 1200px) {
+    
+ .services-main{
+    gap: 90px;
+ }
+
+ .services-main .services-main-img{
+    width: 50%;
+    height: auto;
+ }
+ 
+
+}
