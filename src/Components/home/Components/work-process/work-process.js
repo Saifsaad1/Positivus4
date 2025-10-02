@@ -1,3 +1,11 @@
+//import useEffect
+import { useEffect } from 'react';
+
+//AOS animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 //import useState
 import { useState } from "react";
 
@@ -21,9 +29,17 @@ const WorkProcess = () => {
         }));
     };
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    }, [])
+
+
     return (
         <div className="work-process mt-140">
-            <div className="section-title">
+            <div className="section-title" data-aos = "fade-up" data-aos-duration = "750">
                 <h2>Our Working Process </h2>
                 <p className="work-process-p">
                     Step-by-Step Guide to Achieving Your Business Goals
@@ -32,7 +48,7 @@ const WorkProcess = () => {
 
             <div className="work-proceess-cards-container">
                 {/* card 1 */}
-                <div className="work-process-card box-shadow work-process-card-1  ">
+                <div className="work-process-card box-shadow work-process-card-1  " data-aos = "fade-up" data-aos-duration = "650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-process-card-title-number">01</p>
@@ -63,7 +79,7 @@ const WorkProcess = () => {
                 </div>
 
                 {/* card 2 */}
-                <div className="work-process-card box-shadow work-process-card-2  work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-2  work-process-card-gr" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-process-card-title-number">02</p>
@@ -97,7 +113,7 @@ const WorkProcess = () => {
                 </div>
 
                 {/* card 3 */}
-                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-process-card-title-number">03</p>
@@ -129,7 +145,7 @@ const WorkProcess = () => {
                 </div>
 
                 {/* card 4 */}
-                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-process-card-title-number">04</p>
@@ -162,7 +178,7 @@ const WorkProcess = () => {
                 </div>
 
                 {/* card 5 */}
-                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-process-card-title-number">05</p>
@@ -194,7 +210,7 @@ const WorkProcess = () => {
                 </div>
 
                 {/* card 6 */}
-                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-process-card-title-number">06</p>

@@ -1,3 +1,10 @@
+//import useEffect
+import { useEffect } from 'react';
+
+//AOS animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 //import css
 import "./testimonials.css"
@@ -14,26 +21,33 @@ import bigGreenStar from "./images/big-green-star.png"
 
 const Testimonials = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    }, [])
+
     return (
 
         <div className="testimonials">
 
-            <div className="section-title">
+            <div className="section-title" data-aos = "fade-up" data-aos-duration = "750">
                 <h2>Testimonials</h2>
                 <p className="testimonials-p">Hear from Our Satisfied Clients: Read Our Testimonials to Learn
                     More about Our Digital Marketing Services
                 </p>
             </div>
 
-            <div className="testimonials-container">
-                <div className="testimonials-swap-container">
+            <div className="testimonials-container" data-aos = "fade-up" data-aos-duration = "700">
+                <div className="testimonials-swap-container" >
                     <div id="carouselExampleIndicators" className="carousel slide">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                        
+
                         <div className="carousel-inner">
                             {/* card 1 */}
                             <div className="carousel-item carousel-inner-1 active">

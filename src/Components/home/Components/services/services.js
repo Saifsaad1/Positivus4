@@ -1,3 +1,10 @@
+//import useEffect
+import { useEffect } from 'react';
+
+//AOS animation
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 
 //import css
 import "./services.css"
@@ -19,9 +26,18 @@ import proposalImage from "./images/proposal-img.png"
 
 const Services = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    }, [])
+
+
+
     return (
         <div className="home-services mt-140">
-            <div className="section-title">
+            <div className="section-title" data-aos = "fade-up" data-aos-duration = "800">
                 <h2>Services</h2>
                 <p className="services-p">At our digital marketing agency, we offer a range of services
                     to help businesses grow and succeed online. These services include:
@@ -30,7 +46,7 @@ const Services = () => {
 
             <div className="services-cards">
                 {/*Card 1*/}
-                <div className="service-card service-card-w box-shadow service-card-1">
+                <div className="service-card service-card-w box-shadow service-card-1" data-aos = "fade-up" data-aos-duration = "700">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Search engine</h3>
@@ -47,7 +63,7 @@ const Services = () => {
                 </div>
 
                 {/*Card 2*/}
-                <div className="service-card service-card-g box-shadow service-card-2">
+                <div className="service-card service-card-g box-shadow service-card-2"data-aos = "fade-up" data-aos-duration = "700">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Pay-per-click</h3>
@@ -64,7 +80,7 @@ const Services = () => {
                 </div>
 
                 {/*Card 3*/}
-                <div className="service-card service-card-b box-shadow service-card-2">
+                <div className="service-card service-card-b box-shadow service-card-2"data-aos = "fade-up" data-aos-duration = "700">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Social Media</h3>
@@ -81,7 +97,7 @@ const Services = () => {
                 </div>
 
                 {/*Card 4*/}
-                <div className="service-card service-card-w box-shadow service-card-1">
+                <div className="service-card service-card-w box-shadow service-card-1"data-aos = "fade-up" data-aos-duration = "700">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Email</h3>
@@ -98,7 +114,7 @@ const Services = () => {
                 </div>
 
                 {/*Card 5*/}
-                <div className="service-card service-card-g box-shadow service-card-2">
+                <div className="service-card service-card-g box-shadow service-card-2"data-aos = "fade-up" data-aos-duration = "700">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Content</h3>
@@ -115,7 +131,7 @@ const Services = () => {
                 </div>
 
                 {/*Card 6*/}
-                <div className="service-card service-card-b box-shadow service-card-2">
+                <div className="service-card service-card-b box-shadow service-card-2"data-aos = "fade-up" data-aos-duration = "700">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Analytics and </h3>
@@ -134,7 +150,7 @@ const Services = () => {
             </div>
 
             <div className="proposal">
-                <div className="proposal-left">
+                <div className="proposal-left" data-aos = "fade-right" data-aos-duration = "750">
                     <h3>Let’s make things happen</h3>
                     <p>
                         Contact us today to learn more about how our digital
@@ -143,8 +159,8 @@ const Services = () => {
                     </p>
                     <button className='proposal-btn'>Get your free proposal</button>
                 </div>
-                <div className="proposal-right">
-                    <img src={proposalImage}/>
+                <div className="proposal-right" data-aos = "fade-left" data-aos-duration = "750">
+                    <img src={proposalImage} />
                 </div>
             </div>
         </div>

@@ -1,3 +1,9 @@
+//import useEffect
+import { useEffect } from 'react';
+
+//AOS animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 //import css
 import "./core.css"
@@ -11,16 +17,23 @@ import Collaboration from "./images/collaboration.png"
 
 const Core = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    }, [])
+
     return (
         <div className="core mt-140">
-            <div className="section-title">
+            <div className="section-title" data-aos = "fade-up" data-aos-duration = "750">
                 <h2>Core Values</h2>
                 <p className="core-p">At the heart of everything we do are our core values:</p>
             </div>
 
             <div className="core-cards">
                 {/* core card 1 */}
-                <div className="core-card box-shadow core-card-1 core-card-text">
+                <div className="core-card box-shadow core-card-1 core-card-text" data-aos = "fade-up" data-aos-duration = "650">
                     <h3>Client Success First</h3>
                     <div className="divider"></div>
                     <p>We are dedicated to achieving measurable results for our clients.
@@ -30,7 +43,7 @@ const Core = () => {
                 </div>
 
                 {/* core card 2 */}
-                <div className="core-card box-shadow core-card-2 core-card-media">
+                <div className="core-card box-shadow core-card-2 core-card-media" data-aos = "fade-up" data-aos-duration = "700">
                     <div className="core-card-info">
                         <h3>Innovation</h3>
                         <div className="divider"></div>
@@ -44,7 +57,7 @@ const Core = () => {
                 </div>
 
                 {/* core card 3 */}
-                <div className="core-card box-shadow core-card-3 core-card-media">
+                <div className="core-card box-shadow core-card-3 core-card-media" data-aos = "fade-up" data-aos-duration = "750">
                     <div className="core-card-info">
                         <h3>Collaboration</h3>
                         <div className="divider"></div>
@@ -58,7 +71,7 @@ const Core = () => {
                 </div>
 
                 {/* core card 4 */}
-                <div className="core-card box-shadow core-card-4 core-card-text">
+                <div className="core-card box-shadow core-card-4 core-card-text" data-aos = "fade-up" data-aos-duration = "800">
                     <h3>Transparency</h3>
                     <div className="divider"></div>
                     <p>Open and honest communication is key to our success. We keep our clients

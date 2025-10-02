@@ -1,18 +1,30 @@
+//import useEffect
+import { useEffect } from 'react';
+
+//AOS animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 //import css
 import "./insights.css"
-
 
 //import green arrow image
 import arrowGreen from "./images/arrow-green.png"
 
 const Insights = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    }, [])
+
     return (
 
 
         <div className="insights mt-140">
-            <div className="section-title">
+            <div className="section-title" data-aos = "fade-up" data-aos-duration = "750">
                 <h2>Explore More Insights</h2>
                 <p className="insights-p">
                     Discover expert tips, strategies, and stories to keep you ahead in the digital landscape.
@@ -23,7 +35,7 @@ const Insights = () => {
             <div className="stories-container box-shadow">
                 <div className="story-box-upper">
                     {/* story box 1 */}
-                    <div className="story-box story-box-1 story-box-start">
+                    <div className="story-box story-box-1 story-box-start" data-aos = "flip-left" data-aos-duration = "650">
                         <h3>10 SEO Myths You Need to Stop Believing</h3>
 
                         <p>
@@ -39,7 +51,7 @@ const Insights = () => {
                     </div>
 
                     {/* story box 2 */}
-                    <div className="story-box story-box-2 story-box-mid">
+                    <div className="story-box story-box-2 story-box-mid" data-aos = "flip-left" data-aos-duration = "650">
                         <h3>Maximizing ROI with Social Media Advertising</h3>
 
                         <p>
@@ -55,7 +67,7 @@ const Insights = () => {
                     </div>
 
                     {/* story box 3 */}
-                    <div className="story-box story-box-3 story-box-last">
+                    <div className="story-box story-box-3 story-box-last" data-aos = "flip-left" data-aos-duration = "650">
                         <h3>How Content Marketing Fuels Long-Term Growth</h3>
 
                         <p>
@@ -74,7 +86,7 @@ const Insights = () => {
 
                 <div className="story-box-lower">
                     {/* story box 4 */}
-                    <div className="story-box story-box-4 story-box-start">
+                    <div className="story-box story-box-4 story-box-start" data-aos = "flip-left" data-aos-duration = "650">
                         <h3>The Art of A/B Testing: Perfecting Your Campaigns</h3>
 
                         <p>
@@ -90,7 +102,7 @@ const Insights = () => {
                     </div>
 
                     {/* story box 5 */}
-                    <div className="story-box story-box-5 story-box-mid">
+                    <div className="story-box story-box-5 story-box-mid" data-aos = "flip-left" data-aos-duration = "650">
                         <h3>Understanding Google’s Latest Algorithm Update</h3>
 
                         <p>
@@ -106,7 +118,7 @@ const Insights = () => {
                     </div>
 
                     {/* story box 6 */}
-                    <div className="story-box story-box-6 story-box-last">
+                    <div className="story-box story-box-6 story-box-last" data-aos = "flip-left" data-aos-duration = "650">
                         <h3>5 Ways AI is Changing Digital Marketing</h3>
 
                         <p>

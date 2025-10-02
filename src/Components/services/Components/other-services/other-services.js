@@ -1,3 +1,9 @@
+//import useEffect
+import { useEffect } from 'react';
+
+//AOS animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 //import css
 import "./other-services.css"
@@ -21,9 +27,16 @@ import searchEngineOptimization from "./images/search-engine-optimization.png"
 
 const OtherServices = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    }, [])
+
     return (
         <div className="other-services mt-140">
-            <div className="section-title">
+            <div className="section-title" data-aos = "fade-up" data-aos-duration = "750"> 
                 <h2>Our Other Services</h2>
                 <p className="seo-process-p">
                     At our digital marketing agency, we offer a range of services to help businesses grow and
@@ -33,104 +46,104 @@ const OtherServices = () => {
 
             <div className="services-cards">
                 {/*Card 1*/}
-                <div className="service-card box-shadow service-card-w service-card-1">
+                <div className="service-card box-shadow service-card-w service-card-1" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Pay-per-click</h3>
                             <h3>advertising</h3>
                         </div>
                         <div className="learn-more">
-                            <a href=""><img src={arrowBlack}/></a>
+                            <a href=""><img src={arrowBlack} /></a>
                             <p>Learn more</p>
                         </div>
                     </div>
                     <div className="card-right">
-                        <img src={payPerClick}/>
+                        <img src={payPerClick} />
                     </div>
                 </div>
 
                 {/*Card 2*/}
-                <div className="service-card box-shadow service-card-w service-card-2">
+                <div className="service-card box-shadow service-card-w service-card-2" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Social Media</h3>
                             <h3>Marketing</h3>
                         </div>
                         <div className="learn-more">
-                            <a href=""><img src={arrowBlack}/></a>
+                            <a href=""><img src={arrowBlack} /></a>
                             <p>Learn more</p>
                         </div>
                     </div>
                     <div className="card-right">
-                        <img src={socialMediaMarketing}/>
+                        <img src={socialMediaMarketing} />
                     </div>
                 </div>
 
                 {/*Card 3*/}
-                <div className="service-card box-shadow service-card-w service-card-3">
+                <div className="service-card box-shadow service-card-w service-card-3" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Email</h3>
                             <h3>Marketing</h3>
                         </div>
                         <div className="learn-more">
-                            <a href=""><img src={arrowBlack}/></a>
+                            <a href=""><img src={arrowBlack} /></a>
                             <p>Learn more</p>
                         </div>
                     </div>
                     <div className="card-right">
-                        <img src={emailMarketing}/>
+                        <img src={emailMarketing} />
                     </div>
                 </div>
 
                 {/*Card 4*/}
-                <div className="service-card box-shadow service-card-w service-card-4">
+                <div className="service-card box-shadow service-card-w service-card-4" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Content</h3>
                             <h3>Creation</h3>
                         </div>
                         <div className="learn-more">
-                            <a href=""><img src={arrowBlack}/></a>
+                            <a href=""><img src={arrowBlack} /></a>
                             <p>Learn more</p>
                         </div>
                     </div>
                     <div className="card-right">
-                        <img src={contentCreation}/>
+                        <img src={contentCreation} />
                     </div>
                 </div>
 
                 {/*Card 5*/}
-                <div className="service-card box-shadow service-card-w service-card-5">
+                <div className="service-card box-shadow service-card-w service-card-5" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Analytics and </h3>
                             <h3>Tracking</h3>
                         </div>
                         <div className="learn-more">
-                            <a href=""><img src={arrowBlack}/></a>
+                            <a href=""><img src={arrowBlack} /></a>
                             <p>Learn more</p>
                         </div>
                     </div>
                     <div className="card-right">
-                        <img src={analyticsAndTracking}/>
+                        <img src={analyticsAndTracking} />
                     </div>
                 </div>
 
                 {/*Card 6*/}
-                <div className="service-card box-shadow service-card-w service-card-6">
+                <div className="service-card box-shadow service-card-w service-card-6" data-aos = "fade-up" data-aos-duration = "650">
                     <div className="card-left">
                         <div className="h3s">
                             <h3>Search Engine</h3>
                             <h3>Optimization</h3>
                         </div>
                         <div className="learn-more">
-                            <a href=""><img src={arrowBlack}/></a>
+                            <a href=""><img src={arrowBlack} /></a>
                             <p>Learn more</p>
                         </div>
                     </div>
                     <div className="card-right">
-                        <img src={searchEngineOptimization}/>
+                        <img src={searchEngineOptimization} />
                     </div>
                 </div>
             </div>

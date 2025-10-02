@@ -1,3 +1,10 @@
+//import useEffect
+import { useEffect } from 'react';
+
+//AOS animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 //import css
 import "./team.css"
@@ -16,9 +23,16 @@ import linkedin from "./images/linkedin.png"
 
 const Team = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    }, [])
+
     return (
         <div className="team mt-140">
-            <div className="section-title">
+            <div className="section-title" data-aos = "fade-up" data-aos-duration = "750">
                 <h2>Team</h2>
                 <p className="team-p">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
             </div>
@@ -26,7 +40,7 @@ const Team = () => {
             <div className="team-cards-container">
 
                 {/* card 1 */}
-                <div className="team-card box-shadow team-card-1">
+                <div className="team-card box-shadow team-card-1" data-aos = "fade-up" data-aos-duration = "700">
 
                     <div className="member-info">
                         <img src={johnSmith}/>
@@ -44,7 +58,7 @@ const Team = () => {
                 </div>
 
                 {/* card 2 */}
-                <div className="team-card box-shadow team-card-2">
+                <div className="team-card box-shadow team-card-2" data-aos = "fade-up" data-aos-duration = "700">
 
                     <div className="member-info">
                         <img src={JaneDoe}/>
@@ -62,7 +76,7 @@ const Team = () => {
                 </div>
 
                 {/* card 3 */}
-                <div className="team-card box-shadow team-card-3">
+                <div className="team-card box-shadow team-card-3" data-aos = "fade-up" data-aos-duration = "700">
 
                     <div className="member-info">
                         <img src={michaelBrown}/>
@@ -80,7 +94,7 @@ const Team = () => {
                 </div>
 
                 {/* card 4 */}
-                <div className="team-card box-shadow team-card-1">
+                <div className="team-card box-shadow team-card-1" data-aos = "fade-up" data-aos-duration = "700">
 
                     <div className="member-info">
                         <img src={emilyJohnson}/>
@@ -98,7 +112,7 @@ const Team = () => {
                 </div>
 
                 {/* card 5 */}
-                <div className="team-card box-shadow team-card-2">
+                <div className="team-card box-shadow team-card-2" data-aos = "fade-up" data-aos-duration = "700">
 
                     <div className="member-info">
                         <img src={BrianWilliams}/>
@@ -118,7 +132,7 @@ const Team = () => {
                 </div>
 
                 {/* card 6 */}
-                <div className="team-card box-shadow team-card-3">
+                <div className="team-card box-shadow team-card-3" data-aos = "fade-up" data-aos-duration = "700">
 
                     <div className="member-info">
                         <img src={sarahKim}/>
@@ -140,7 +154,7 @@ const Team = () => {
 
             </div>
 
-            <div className="see-btn-container">
+            <div className="see-btn-container" data-aos = "fade-up" data-aos-duration = "700">
                 <a href=""><button className="see-btn">See all team</button></a>
             </div>
 

@@ -1,5 +1,9 @@
+//AOS animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 //import useState
-import { useState , useEffect } from "react";
+import { useState, useEffect } from "react";
 
 //import css
 import "./questions.css"
@@ -17,7 +21,7 @@ const Questions = () => {
         6: false,
     });
 
-useEffect(() => {
+    useEffect(() => {
         if (window.innerWidth <= 768) {
             setOpenCards({
                 1: false,
@@ -28,8 +32,8 @@ useEffect(() => {
                 6: false,
             });
         }
-    }, []); // تشغل مرة وحدة عند التحميل
-    
+    }, []);
+
 
     const toggleCard = (cardNumber) => {
         setOpenCards((prev) => ({
@@ -38,15 +42,22 @@ useEffect(() => {
         }));
     };
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    }, [])
+
     return (
         <div className="questions mt-140">
-            <div className="section-title">
+            <div className="section-title" data-aos="fade-up" data-aos-duration="750">
                 <h2>Frequantly Asked Questions</h2>
             </div>
 
             <div className="work-proceess-cards-container">
                 {/* card 1 */}
-                <div className="work-process-card box-shadow work-process-card-1  ">
+                <div className="work-process-card box-shadow work-process-card-1" data-aos="fade-up" data-aos-duration="650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-proceess-card-title-info">Are there any additional fees or charges that may apply?</p>
@@ -76,7 +87,7 @@ useEffect(() => {
                 </div>
 
                 {/* card 2 */}
-                <div className="work-process-card box-shadow work-process-card-2  work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-2  work-process-card-gr" data-aos="fade-up" data-aos-duration="650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-proceess-card-title-info">
@@ -109,7 +120,7 @@ useEffect(() => {
                 </div>
 
                 {/* card 3 */}
-                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr" data-aos="fade-up" data-aos-duration="650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-proceess-card-title-info">Do you offer a free trial or consultation?</p>
@@ -140,7 +151,7 @@ useEffect(() => {
                 </div>
 
                 {/* card 4 */}
-                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr" data-aos="fade-up" data-aos-duration="650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-proceess-card-title-info">How do you bill and invoice your clients?</p>
@@ -172,7 +183,7 @@ useEffect(() => {
                 </div>
 
                 {/* card 5 */}
-                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr" data-aos="fade-up" data-aos-duration="650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-proceess-card-title-info">Are your services guaranteed to deliver results?</p>
@@ -203,7 +214,7 @@ useEffect(() => {
                 </div>
 
                 {/* card 6 */}
-                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr">
+                <div className="work-process-card box-shadow work-process-card-3 work-process-card-gr" data-aos="fade-up" data-aos-duration="650">
                     <div className="work-process-card-title-container">
                         <div className="work-process-card-title">
                             <p className="work-proceess-card-title-info">Do you offer contract-based or monthly retainer-based pricing?</p>

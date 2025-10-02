@@ -10,7 +10,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 //import css
 import "./navbar.css"
-import "./floating-buttons.css"   // ✅ ملف الأزرار الجديدة
+import "./floating-buttons.css"  
 
 //import logo
 import logoBlack from "./images/logo-black.png"
@@ -70,9 +70,10 @@ const NavbarContent = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
-    // navigate to home
+    // navigate to home + scroll top
     const goHome = () => {
         navigate("/");
+        window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
     return (
@@ -178,7 +179,7 @@ const NavbarContent = () => {
                     ↑
                 </button>
 
-                {/* Go Home (يظهر فقط إذا لم يكن في الصفحة الرئيسية) */}
+               
                 {location.pathname !== "/" && (
                     <button className="go-home-btn" onClick={goHome}>
                         ⌂
@@ -197,5 +198,3 @@ const Navbar = () => (
 console.log("Navbar loaded");
 
 export default Navbar;
-
-/*basename="/Positivus4"*/

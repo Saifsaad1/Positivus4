@@ -21,6 +21,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 h1 {
   font-size: 60px;
   margin: 0;
@@ -77,6 +78,24 @@ button {
   border: 1px solid var(--pr2-color) !important;
 }
 
+.float-infinite {
+  animation: float 3s ease-in-out infinite;
+
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
+  user-select: none;
+
+  pointer-events: none;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+
 .section-main {
   width: 100%;
   background-color: var(--pr3-color);
@@ -113,6 +132,8 @@ button {
   justify-content: start;
   width: 100%;
   margin-bottom: 80px;
+
+  
 }
 
 .section-title h2 {
