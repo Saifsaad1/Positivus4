@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Positivus4/static/css/main.534a08dc.css",
+    "main.css": "/Positivus4/static/css/main.c8eee6ac.css",
     "main.js": "/Positivus4/static/js/main.3ab186aa.js",
     "static/js/453.1ab81935.chunk.js": "/Positivus4/static/js/453.1ab81935.chunk.js",
     "static/media/journey-background-768.png": "/Positivus4/static/media/journey-background-768.c3d690b76373a1a9556d.png",
@@ -41,12 +41,12 @@
     "static/media/big-green-star.png": "/Positivus4/static/media/big-green-star.acdb34e80f6a7a2c7923.png",
     "static/media/brian-williams.png": "/Positivus4/static/media/brian-williams.a42e030a68858b503d1d.png",
     "index.html": "/Positivus4/index.html",
-    "main.534a08dc.css.map": "/Positivus4/static/css/main.534a08dc.css.map",
+    "main.c8eee6ac.css.map": "/Positivus4/static/css/main.c8eee6ac.css.map",
     "main.3ab186aa.js.map": "/Positivus4/static/js/main.3ab186aa.js.map",
     "453.1ab81935.chunk.js.map": "/Positivus4/static/js/453.1ab81935.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.534a08dc.css",
+    "static/css/main.c8eee6ac.css",
     "static/js/main.3ab186aa.js"
   ]
 }
