@@ -1,4 +1,4 @@
-.work-process{
+.work-process {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -6,25 +6,42 @@
     justify-content: start;
 }
 
+/* for screen size 415 */
+@media (max-width: 415px) {
 
+    .work-process-card-title-container .work-process-card-title .work-process-card-title-number {
+        font-size: 25px !important;
+    }
+
+    .work-process-card-title-container .work-process-card-title .work-proceess-card-title-info {
+        font-size: 15px !important;
+        margin-left: 18px !important;
+
+    }
+}
 
 
 /* media for size 576px */
 @media (max-width: 576px) {
-    
- .work-proceess-cards-container{
-    width: 100%;
- }
 
-.work-process-card-title-container .work-process-card-title .work-process-card-title-number{
-    font-size: 30px !important;
-}
+    .work-proceess-cards-container {
+        width: 100%;
+    }
 
-.work-process-card-title-container .work-process-card-title .work-proceess-card-title-info{
-    font-size: 18px !important;
-}
+    .work-process-card-title-container .work-process-card-title .work-process-card-title-number {
+        font-size: 30px ;
+    }
 
- 
+    .work-process-card-title-container .work-process-card-title .work-proceess-card-title-info {
+        font-size: 18px;
+    }
+
+    .work-process-card .drop-down-img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+
 
 }
 
@@ -33,9 +50,9 @@
 
 /* for screen size 768 */
 @media (max-width: 768px) {
-.work-process-card{
-    border-radius: 90px !important;
-}
+    .work-process-card {
+        border-radius: 90px !important;
+    }
 
 
 
