@@ -38,7 +38,7 @@ const Footer = () => {
                 <div className="contact-subscribe">
                     <div className="footer-contact">
                         <h4>Contact us:</h4>
-                        <p>Email: mrd7oomy258@gmail.com</p>
+                        <p>Email: saifsaad65a@gmail.com</p>
                         <p>Phone: 555-567-8901</p>
                         <p>Address: 1234 Main St<br />
                             Moonstone City, Stardust State 12345</p>
