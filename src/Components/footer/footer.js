@@ -43,6 +43,7 @@ const Footer = () => {
                         <p>Address: 1234 Main St<br />
                             Moonstone City, Stardust State 12345</p>
                     </div>
+    
 
                     <div className="footer-subscribe">
                         <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
